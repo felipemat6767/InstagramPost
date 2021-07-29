@@ -1,0 +1,65 @@
+.contenedor {
+    width: 500px;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+.ParteSuperior {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.Elementosupder {
+    display: flex;
+    flex-direction: column;
+}
+
+.Elementosupder i {
+    padding: 2px;
+    font-size: 20px;
+}
+
+.Elementosupizq {
+    display: flex;
+    align-items: center;
+}
+
+.Elementosupizq i {
+    font-size: 30px;
+}
+
+.legend {
+    padding: 4px;
+}
+
+.imagen img {
+    width: 500px;
+}
+
+.simbolos {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.simbolosizq i,
+.simbolosder i {
+    font-size: 36px;
+    margin-right: 8px;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+}
+
+.liked {
+    padding: 2px 10px;
+    font-size: 18px;
+    font-family: cursive;
+}
+
+.imagen {
+    background-image: url("https://cdn.pixabay.com/photo/2017/12/11/23/52/coding-3013602_960_720.jpg");
+}
